@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("https://source.unsplash.com/1600x900/?stock,market,finance") no-repeat center center/cover;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/* Main container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  backdrop-filter: blur(5px);
+}
+
+/* Header */
+.header h1 {
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* Form */
+.form-container {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+/* Input fields */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+/* Button */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Chart */
+.chart-container {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 85%;
+  margin-top: 20px;
+}
